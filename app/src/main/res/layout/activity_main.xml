@@ -8,7 +8,9 @@
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".MainActivity">
 
-
+    <!--
+        使用universal-image-loader需要制定图片大小
+    -->
     <ImageView
         android:adjustViewBounds="true"
         android:layout_width="300dp"
